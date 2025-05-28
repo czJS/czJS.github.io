@@ -1,7 +1,9 @@
-baseURL = "https://guobaohappy.github.io/"  # 替换为你的 GitHub 用户名
+baseURL = "https://guobaohappy.github.io/"
 theme = "ananke"
 languageCode = "zh-CN"
 defaultContentLanguage = "zh"
 [taxonomies]
   category = "categories"
   tag = "tags"
+[build]
+  publishDir = "docs"
